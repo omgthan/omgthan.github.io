@@ -5,8 +5,8 @@ body {
 
 #main-table {
     margin: auto;
-    width: 30dvw;
-    margin-top: 10dvh;
+    width: 90dvh;
+    margin-top: 5dvh;
     font-size: 20px;
     color: #303040;
 }
@@ -41,5 +41,5 @@ body {
 }
 
 .box {
-    height: 10dvw;
+    height: 30dvh;
 }
