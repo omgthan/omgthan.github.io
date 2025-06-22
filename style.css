@@ -7,6 +7,8 @@ main {
 	background-color: white;
 	border-radius: 50px;
 	margin: auto;
+	height: 100%;
+	min-height: 100dvh;
 }
 
 header {
@@ -46,7 +48,7 @@ a:hover {
 }
 
 .intext-link {
-	color: #4444AA;
+	color: #4444BB;
 	text-decoration: underline;
 }
 
