@@ -4,9 +4,9 @@ body {
 }
 
 main {
-	height: 100dvh;
 	background-color: white;
 	border-radius: 50px;
+	margin: auto;
 }
 
 header {
@@ -29,11 +29,11 @@ header {
 	transition: 0.2s;
 	margin-inline: 2dvw;
 	margin-top: 2dvh;
-	display: inline-flex
+	display: inline-flex;
 }
 
 .page-link:hover {
-	color: #808080;
+	color: #606060;
 }
 
 a {
@@ -45,9 +45,28 @@ a:hover {
 	text-decoration: underline;
 }
 
+.intext-link {
+	color: #4444AA;
+	text-decoration: underline;
+}
+
 .wrapper {
 	margin: auto;
-	width: 50%;
+	width: 65%;
 	text-align: center;
 	padding: 4dvh;
+}
+
+.section-heading {
+	color: #343434;
+}
+
+.list-elements {
+	color: #606060;
+	text-align: left;
+	list-style-type: none;
+}
+
+li {
+	padding: 2dvh;
 }
