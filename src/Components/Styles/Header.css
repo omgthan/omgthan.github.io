@@ -1,0 +1,9 @@
+Header {
+	position: absolute;
+	max-width: 50dvw;
+}
+
+table {
+	width: 100%;
+	table-layout: fixed;
+}

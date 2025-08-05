@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: #343434;
-  background-color: #e6e6f0;
+  background-color: #f0f0f0;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,17 +13,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     color: #dbdbdb;
-    background-color: #34343a;
+    background-color: #343434;
   }
 }
