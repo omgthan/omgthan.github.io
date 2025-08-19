@@ -1,24 +1,16 @@
 import './Styles/Header.css';
 import { Link } from "react-router-dom";
 
-function Header() {
+function HeaderNode() {
 	return (
 		<>
-			<div>
+			<div id="header" className="wrapper">
 				<h1><Link to="/">Ethan Dirkes</Link></h1>
-				<table>
-					<tr>
-						<td>
-							<Link to="/about">About</Link>
-						</td>
-						<td>
-							<Link to="/projects">Projects</Link>
-						</td>
-					</tr>
-				</table>
+				<Link to="/about">About</Link>
+				<Link to="/projects">Projects</Link>
 			</div>
 		</>
 	)
 }
 
-export default Header
+export default HeaderNode

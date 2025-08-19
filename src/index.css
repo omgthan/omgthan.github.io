@@ -1,21 +1,35 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+	--color: #343434;
+	--background: #f0f0f0;
+	--alt-background: #f7f7f7;
+	--link-background: #ffffff;
 
-  color-scheme: light dark;
-  color: #343434;
-  background-color: #f0f0f0;
+	font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	color-scheme: light dark;
+	color: var(--color);
+	background-color: var(--background);
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+	border-radius: 20px;
+	background: var(--alt-background);
+	padding: 1dvh;
+	min-height: 10dvh;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    color: #dbdbdb;
-    background-color: #343434;
-  }
+	:root {
+		--color: #dbdbdb;
+		--background: #343434;
+		--alt-background: #2d2d2d;
+		--link-background: #252525;
+	}
 }

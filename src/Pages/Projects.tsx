@@ -1,10 +1,10 @@
 import './Styles/Projects.css'
-import Header from "../Components/Header"
+import HeaderNode from "../Components/Header"
 
 function Projects() {
 	return (
 		<>
-			<Header />
+			<HeaderNode />
 		</>
 	);
 }

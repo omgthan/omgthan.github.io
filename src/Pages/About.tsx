@@ -1,10 +1,10 @@
 import './Styles/About.css'
-import Header from "../Components/Header"
+import HeaderNode from "../Components/Header"
 
 function About() {
 	return (
 		<>
-			<Header />
+			<HeaderNode />
 		</>
 	);
 }

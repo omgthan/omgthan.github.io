@@ -1,12 +1,16 @@
 import './Styles/Button.css'
+import { Link } from "react-router-dom";
 
 interface Props {
 	label: string;
+	dest: string
 }
 
-function Button({ label }: Props) {
+function Button({ label, dest }: Props) {
 	return (
-		<button>{label}</button>
+		<Link to={dest}>
+			<button>{label}</button>
+		</Link>
 	);
 }
 

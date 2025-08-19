@@ -1,6 +1,28 @@
 .centered {
 	align-items: center;
 	justify-content: center;
-	padding-top: 25%;
 	line-height: 1.5rem;
+
+	margin-top: 40dvh;
+	text-align: center;
+}
+
+.centered a {
+	text-decoration: none;
+	background-color: var(--link-background);
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	border-radius: 8px;
+	transition: text-shadow 100ms;
+	transition-timing-function: linear;
+}
+
+.centered a:hover {
+	text-decoration: none;
+	text-shadow: 0 0 2px;
+}
+
+.centered a:visited {
+	color: inherit;
 }
