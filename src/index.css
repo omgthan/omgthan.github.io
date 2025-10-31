@@ -1,8 +1,10 @@
 :root {
 	--color: #343434;
-	--background: #f0f0f0;
-	--alt-background: #f7f7f7;
+	--background: #eaeaea;
+	--alt-background: #f5f5f5;
 	--link-background: #ffffff;
+	--item-hover: #e6e6e6;
+	--item-selected: #dadada;
 
 	font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 	line-height: 1.5;
@@ -31,5 +33,7 @@
 		--background: #343434;
 		--alt-background: #2d2d2d;
 		--link-background: #252525;
+		--item-hover: #3a3a3a;
+		--item-selected: #444444;
 	}
 }

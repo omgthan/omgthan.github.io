@@ -5,13 +5,15 @@
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+	margin-bottom: 4dvh;
+	padding-bottom: 2dvh;
 }
 
 #header a {
 	text-decoration: none;
 	transition: text-shadow 100ms;
 	transition-timing-function: linear;
-	padding-inline: 1dvw;
+	padding-inline: 10px;
 	background-color: var(--link-background);
 	padding-bottom: 4px;
 	border-radius: 8px;
@@ -24,4 +26,11 @@
 
 #header a:visited {
 	color: inherit;
+}
+
+@media screen and (max-width: 1000px) {
+	#header {
+		max-width: none;
+		width: 80dvw;
+	}
 }
