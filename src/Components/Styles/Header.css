@@ -10,22 +10,8 @@
 }
 
 #header a {
-	text-decoration: none;
-	transition: text-shadow 100ms;
-	transition-timing-function: linear;
-	padding-inline: 10px;
-	background-color: var(--link-background);
-	padding-bottom: 4px;
-	border-radius: 8px;
-	margin-inline: 1dvw;
-}
-
-#header a:hover {
-	text-shadow: 0 0 2px;
-}
-
-#header a:visited {
-	color: inherit;
+	margin-left: 1dvw;
+	margin-right: 1dvw;
 }
 
 @media screen and (max-width: 1000px) {

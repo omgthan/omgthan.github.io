@@ -6,7 +6,7 @@
 	--item-hover: #e6e6e6;
 	--item-selected: #dadada;
 
-	font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
 	line-height: 1.5;
 	font-weight: 400;
 
@@ -25,6 +25,23 @@
 	background: var(--alt-background);
 	padding: 1dvh;
 	min-height: 10dvh;
+}
+
+a {
+	text-decoration: none;
+	transition: text-shadow 100ms;
+	transition-timing-function: linear;
+	border-radius: 8px;
+	padding: 8px;
+	background-color: var(--link-background);
+}
+
+a:hover {
+	text-shadow: 0 0 2px;
+}
+
+a:visited {
+	color: inherit;
 }
 
 @media (prefers-color-scheme: dark) {
